@@ -1,0 +1,21 @@
+# Ignore data files
+train.csv
+test.csv
+sample_submission.csv
+submission.csv
+
+# Ignore model checkpoints and large files
+*.h5
+*.ckpt
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore catboost_info directory
+catboost_info/
